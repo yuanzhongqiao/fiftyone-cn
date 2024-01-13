@@ -1,280 +1,292 @@
-<div align="center">
-<p align="center">
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div align="center" dir="auto">
+<p align="center" dir="auto">
 
-<!-- prettier-ignore -->
-<img src="https://user-images.githubusercontent.com/25985824/106288517-2422e000-6216-11eb-871d-26ad2e7b1e59.png" height="55px"> &nbsp;
-<img src="https://user-images.githubusercontent.com/25985824/106288518-24bb7680-6216-11eb-8f10-60052c519586.png" height="50px">
+</p><p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/25985824/106288517-2422e000-6216-11eb-871d-26ad2e7b1e59.png"><img src="https://user-images.githubusercontent.com/25985824/106288517-2422e000-6216-11eb-871d-26ad2e7b1e59.png" height="55px" style="max-width: 100%;"></a> &nbsp;
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/25985824/106288518-24bb7680-6216-11eb-8f10-60052c519586.png"><img src="https://user-images.githubusercontent.com/25985824/106288518-24bb7680-6216-11eb-8f10-60052c519586.png" height="50px" style="max-width: 100%;"></a></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于构建高质量数据集和计算机视觉模型的开源工具</font></font></strong></p>
+<hr>
 
-**The open-source tool for building high-quality datasets and computer vision
-models**
-
----
-
-<!-- prettier-ignore -->
-<a href="https://voxel51.com/fiftyone">Website</a> •
-<a href="https://voxel51.com/docs/fiftyone">Docs</a> •
-<a href="https://colab.research.google.com/github/voxel51/fiftyone-examples/blob/master/examples/quickstart.ipynb">Try it Now</a> •
-<a href="https://voxel51.com/docs/fiftyone/tutorials/index.html">Tutorials</a> •
-<a href="https://github.com/voxel51/fiftyone-examples">Examples</a> •
-<a href="https://voxel51.com/blog/">Blog</a> •
-<a href="https://slack.voxel51.com">Community</a>
-
-[![PyPI python](https://img.shields.io/pypi/pyversions/fiftyone)](https://pypi.org/project/fiftyone)
-[![PyPI version](https://badge.fury.io/py/fiftyone.svg)](https://pypi.org/project/fiftyone)
-[![Downloads](https://static.pepy.tech/badge/fiftyone)](https://pepy.tech/project/fiftyone)
-[![Docker Pulls](https://badgen.net/docker/pulls/voxel51/fiftyone?icon=docker&label=pulls)](https://hub.docker.com/r/voxel51/fiftyone/)
-[![Build](https://github.com/voxel51/fiftyone/workflows/Build/badge.svg?branch=develop&event=push)](https://github.com/voxel51/fiftyone/actions?query=workflow%3ABuild)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![Slack](https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white)](https://slack.voxel51.com)
-[![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/voxel51)
-[![Mailing list](http://bit.ly/2Md9rxM)](https://share.hsforms.com/1zpJ60ggaQtOoVeBqIZdaaA2ykyk)
-[![Twitter](https://img.shields.io/twitter/follow/Voxel51?style=social)](https://twitter.com/voxel51)
-
-[![FiftyOne](https://voxel51.com/images/fiftyone_poster.png)](https://fiftyone.ai)
-
-</p>
+<p dir="auto"><a href="https://voxel51.com/fiftyone" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网站</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+</font></font><a href="https://voxel51.com/docs/fiftyone" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+</font></font><a href="https://colab.research.google.com/github/voxel51/fiftyone-examples/blob/master/examples/quickstart.ipynb" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">立即尝试</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+</font></font><a href="https://voxel51.com/docs/fiftyone/tutorials/index.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">教程</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+</font></font><a href="https://github.com/voxel51/fiftyone-examples"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+</font></font><a href="https://voxel51.com/blog/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+</font></font><a href="https://slack.voxel51.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区</font></font></a></p>
+<p dir="auto"><a href="https://pypi.org/project/fiftyone" rel="nofollow"><img src="https://camo.githubusercontent.com/256ed591a3e567f9127c6bf06b0854caf3eb239589026c5e925b9c4d52852b85/68747470733a2f2f696d672e736869656c64732e696f2f707970692f707976657273696f6e732f66696674796f6e65" alt="PyPI 蟒蛇" data-canonical-src="https://img.shields.io/pypi/pyversions/fiftyone" style="max-width: 100%;"></a>
+<a href="https://pypi.org/project/fiftyone" rel="nofollow"><img src="https://camo.githubusercontent.com/e5913c406a86404c1c238c072a01367a9b72391a824348ae790dfd4bc5486c99/68747470733a2f2f62616467652e667572792e696f2f70792f66696674796f6e652e737667" alt="PyPI版本" data-canonical-src="https://badge.fury.io/py/fiftyone.svg" style="max-width: 100%;"></a>
+<a href="https://pepy.tech/project/fiftyone" rel="nofollow"><img src="https://camo.githubusercontent.com/fd2f335aa0dab6737b86b1d2d6f1d9eff0529f36c51a6e06bcb1eeec3521779e/68747470733a2f2f7374617469632e706570792e746563682f62616467652f66696674796f6e65" alt="下载" data-canonical-src="https://static.pepy.tech/badge/fiftyone" style="max-width: 100%;"></a>
+<a href="https://hub.docker.com/r/voxel51/fiftyone/" rel="nofollow"><img src="https://camo.githubusercontent.com/128c5bbc62329485934027218fd3c3c6109ced8bf616412772c9bf2be3ff1f76/68747470733a2f2f62616467656e2e6e65742f646f636b65722f70756c6c732f766f78656c35312f66696674796f6e653f69636f6e3d646f636b6572266c6162656c3d70756c6c73" alt="Docker 拉取" data-canonical-src="https://badgen.net/docker/pulls/voxel51/fiftyone?icon=docker&amp;label=pulls" style="max-width: 100%;"></a>
+<a href="https://github.com/voxel51/fiftyone/actions?query=workflow%3ABuild"><img src="https://github.com/voxel51/fiftyone/workflows/Build/badge.svg?branch=develop&amp;event=push" alt="建造" style="max-width: 100%;"></a>
+<a href="/voxel51/fiftyone/blob/develop/LICENSE"><img src="https://camo.githubusercontent.com/db9dfde8049c5d66ba62fde707d2cfb30e26f9f26ff274c3442c0aec1ec410a4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d417061636865253230322e302d626c75652e737667" alt="执照" data-canonical-src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" style="max-width: 100%;"></a>
+<a href="https://slack.voxel51.com" rel="nofollow"><img src="https://camo.githubusercontent.com/eba02f419e913b84f20bf3ee74e6975d35ce25123d49ee3751173af22f5fdb86/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f536c61636b2d3441313534423f6c6f676f3d736c61636b266c6f676f436f6c6f723d7768697465" alt="松弛" data-canonical-src="https://img.shields.io/badge/Slack-4A154B?logo=slack&amp;logoColor=white" style="max-width: 100%;"></a>
+<a href="https://medium.com/voxel51" rel="nofollow"><img src="https://camo.githubusercontent.com/1ffa337ac42b00eed7c4a0bc64348b84ceb17dafb0baa989e868bf752baa4f74/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d656469756d2d3132313030453f6c6f676f3d6d656469756d266c6f676f436f6c6f723d7768697465" alt="中等的" data-canonical-src="https://img.shields.io/badge/Medium-12100E?logo=medium&amp;logoColor=white" style="max-width: 100%;"></a>
+<a href="https://share.hsforms.com/1zpJ60ggaQtOoVeBqIZdaaA2ykyk" rel="nofollow"><img src="https://camo.githubusercontent.com/6e2b3e99f025beb03ed6dcd3409c4936d8dd50637de2b13f364c5a0e2906e73b/687474703a2f2f6269742e6c792f324d643972784d" alt="邮件列表" data-canonical-src="http://bit.ly/2Md9rxM" style="max-width: 100%;"></a>
+<a href="https://twitter.com/voxel51" rel="nofollow"><img src="https://camo.githubusercontent.com/2213ce1462e7611afbcced874e8e26fcf00930b42325c93d3f3effc7ade6a52e/68747470733a2f2f696d672e736869656c64732e696f2f747769747465722f666f6c6c6f772f566f78656c35313f7374796c653d736f6369616c" alt="推特" data-canonical-src="https://img.shields.io/twitter/follow/Voxel51?style=social" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://fiftyone.ai" rel="nofollow"><img src="https://camo.githubusercontent.com/bde76bf636e42c36909014ca00aca8ea4dcd6dee8e704b4fb31f80fb8f54cc6b/68747470733a2f2f766f78656c35312e636f6d2f696d616765732f66696674796f6e655f706f737465722e706e67" alt="五十一" data-canonical-src="https://voxel51.com/images/fiftyone_poster.png" style="max-width: 100%;"></a></p>
+<p dir="auto"></p>
 </div>
+<hr>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有什么比质量差的数据更能阻碍机器学习系统的成功了。</font><font style="vertical-align: inherit;">如果没有合适的工具，改进模型可能既耗时又低效。</font></font></p>
+<p dir="auto"><a href="https://fiftyone.ai" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FiftyOne</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使您能够更快、更有效地可视化数据集并解释模型，从而增强您的机器学习工作流程。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 FiftyOne 亲身实践您的数据，包括可视化复杂标签、评估您的模型、探索感兴趣的场景、识别故障模式、查找注释错误等等！</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以通过加入我们的 Slack 社区、阅读我们在 Medium 上的博客以及在社交媒体上关注我们来参与其中：</font></font></p>
+<p dir="auto"><a href="https://slack.voxel51.com" rel="nofollow"><img src="https://camo.githubusercontent.com/eba02f419e913b84f20bf3ee74e6975d35ce25123d49ee3751173af22f5fdb86/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f536c61636b2d3441313534423f6c6f676f3d736c61636b266c6f676f436f6c6f723d7768697465" alt="松弛" data-canonical-src="https://img.shields.io/badge/Slack-4A154B?logo=slack&amp;logoColor=white" style="max-width: 100%;"></a>
+<a href="https://medium.com/voxel51" rel="nofollow"><img src="https://camo.githubusercontent.com/1ffa337ac42b00eed7c4a0bc64348b84ceb17dafb0baa989e868bf752baa4f74/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d656469756d2d3132313030453f6c6f676f3d6d656469756d266c6f676f436f6c6f723d7768697465" alt="中等的" data-canonical-src="https://img.shields.io/badge/Medium-12100E?logo=medium&amp;logoColor=white" style="max-width: 100%;"></a>
+<a href="https://twitter.com/voxel51" rel="nofollow"><img src="https://camo.githubusercontent.com/1106787a8f08a0a4022b9903649e92d1be028bbf7078ff25d8e77881ee8e45e6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f547769747465722d3144413146323f6c6f676f3d74776974746572266c6f676f436f6c6f723d7768697465" alt="推特" data-canonical-src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&amp;logoColor=white" style="max-width: 100%;"></a>
+<a href="https://www.linkedin.com/company/voxel51" rel="nofollow"><img src="https://camo.githubusercontent.com/a3885b2c6360d0bf77c00ef523b630bdc8d40d48457dbbb9d1981bd52a24a9e0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c696e6b6564496e2d3030373742353f6c6f676f3d6c696e6b6564696e266c6f676f436f6c6f723d7768697465" alt="领英" data-canonical-src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&amp;logoColor=white" style="max-width: 100%;"></a>
+<a href="https://www.facebook.com/voxel51" rel="nofollow"><img src="https://camo.githubusercontent.com/51bbc2b0cf5d1fa9beb099412de4aaa2f73e5f7bdf98a6e724946d01c348e651/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f46616365626f6f6b2d3138373746323f6c6f676f3d66616365626f6f6b266c6f676f436f6c6f723d7768697465" alt="Facebook" data-canonical-src="https://img.shields.io/badge/Facebook-1877F2?logo=facebook&amp;logoColor=white" style="max-width: 100%;"></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-installation" class="anchor" aria-hidden="true" tabindex="-1" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以通过以下方式安装最新稳定版本的 FiftyOne </font></font><code>pip</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install fiftyone</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="pip install fiftyone" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅
+</font></font><a href="https://voxel51.com/docs/fiftyone/getting_started/install.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+以了解故障排除以及有关启动和运行 FiftyOne 的其他信息。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-quickstart" class="anchor" aria-hidden="true" tabindex="-1" href="#quickstart"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快速开始</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过打开 Python shell 并运行下面的代码片段，直接深入了解 FiftyOne，该代码片段会下载一个
+</font></font><a href="https://voxel51.com/docs/fiftyone/user_guide/dataset_zoo/datasets.html#quickstart" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">小数据集</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+并启动
+</font></font><a href="https://voxel51.com/docs/fiftyone/user_guide/app.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FiftyOne 应用程序</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，以便您可以探索它：</font></font></p>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">import</span> <span class="pl-s1">fiftyone</span> <span class="pl-k">as</span> <span class="pl-s1">fo</span>
+<span class="pl-k">import</span> <span class="pl-s1">fiftyone</span>.<span class="pl-s1">zoo</span> <span class="pl-k">as</span> <span class="pl-s1">foz</span>
 
----
-
-Nothing hinders the success of machine learning systems more than poor quality
-data. And without the right tools, improving a model can be time-consuming and
-inefficient.
-
-[FiftyOne](https://fiftyone.ai) supercharges your machine learning workflows by
-enabling you to visualize datasets and interpret models faster and more
-effectively.
-
-Use FiftyOne to get hands-on with your data, including visualizing complex
-labels, evaluating your models, exploring scenarios of interest, identifying
-failure modes, finding annotation mistakes, and much more!
-
-You can get involved by joining our Slack community, reading our blog on
-Medium, and following us on social media:
-
-[![Slack](https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white)](https://slack.voxel51.com)
-[![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/voxel51)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white)](https://twitter.com/voxel51)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/voxel51)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/voxel51)
-
-## Installation
-
-You can install the latest stable version of FiftyOne via `pip`:
-
-```shell
-pip install fiftyone
-```
-
-Consult the
-[installation guide](https://voxel51.com/docs/fiftyone/getting_started/install.html)
-for troubleshooting and other information about getting up-and-running with
-FiftyOne.
-
-## Quickstart
-
-Dive right into FiftyOne by opening a Python shell and running the snippet
-below, which downloads a
-[small dataset](https://voxel51.com/docs/fiftyone/user_guide/dataset_zoo/datasets.html#quickstart)
-and launches the
-[FiftyOne App](https://voxel51.com/docs/fiftyone/user_guide/app.html) so you
-can explore it:
-
-```py
-import fiftyone as fo
+<span class="pl-s1">dataset</span> <span class="pl-c1">=</span> <span class="pl-s1">foz</span>.<span class="pl-en">load_zoo_dataset</span>(<span class="pl-s">"quickstart"</span>)
+<span class="pl-s1">session</span> <span class="pl-c1">=</span> <span class="pl-s1">fo</span>.<span class="pl-en">launch_app</span>(<span class="pl-s1">dataset</span>)</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="import fiftyone as fo
 import fiftyone.zoo as foz
 
-dataset = foz.load_zoo_dataset("quickstart")
-session = fo.launch_app(dataset)
-```
+dataset = foz.load_zoo_dataset(&quot;quickstart&quot;)
+session = fo.launch_app(dataset)" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后查看
+</font></font><a href="https://colab.research.google.com/github/voxel51/fiftyone-examples/blob/master/examples/quickstart.ipynb" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此 Colab 笔记本，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+了解快速入门数据集上的一些常见工作流程。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，如果您在脚本中运行上述代码，则必须包含
+</font></font><code>session.wait()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阻止执行，直到关闭应用程序。</font><font style="vertical-align: inherit;">请参阅
+</font></font><a href="https://voxel51.com/docs/fiftyone/user_guide/app.html#creating-a-session" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+了解更多信息。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-documentation" class="anchor" aria-hidden="true" tabindex="-1" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FiftyOne 的完整文档可在
+</font></font><a href="https://fiftyone.ai" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fifthone.ai</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上找到。</font><font style="vertical-align: inherit;">特别是，请参阅以下资源：</font></font></p>
+<ul dir="auto">
+<li><a href="https://voxel51.com/docs/fiftyone/tutorials/index.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">教程</font></font></a></li>
+<li><a href="https://voxel51.com/docs/fiftyone/recipes/index.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">食谱</font></font></a></li>
+<li><a href="https://voxel51.com/docs/fiftyone/user_guide/index.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户指南</font></font></a></li>
+<li><a href="https://voxel51.com/docs/fiftyone/cli/index.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CLI 文档</font></font></a></li>
+<li><a href="https://voxel51.com/docs/fiftyone/api/fiftyone.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">API参考</font></font></a></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-examples" class="anchor" aria-hidden="true" tabindex="-1" href="#examples"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例子</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看</font></font><a href="https://github.com/voxel51/fiftyone-examples"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">五十一个示例</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+存储库，了解使用 FiftyOne 的开源和社区贡献的示例。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-contributing-to-fiftyone" class="anchor" aria-hidden="true" tabindex="-1" href="#contributing-to-fiftyone"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为五十一做出贡献</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FiftyOne 是开源的，欢迎社区贡献！</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看
+</font></font><a href="https://github.com/voxel51/fiftyone/blob/develop/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+以了解如何参与。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-installing-from-source" class="anchor" aria-hidden="true" tabindex="-1" href="#installing-from-source"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从源安装</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以下说明适用于 macOS 和 Linux 系统。</font><font style="vertical-align: inherit;">Windows 用户可能需要进行调整。</font><font style="vertical-align: inherit;">如果您在 Google Colab 工作，
+</font></font><a href="#source-installs-in-google-colab"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请跳至此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-prerequisites" class="anchor" aria-hidden="true" tabindex="-1" href="#prerequisites"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">先决条件</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你会需要：</font></font></p>
+<ul dir="auto">
+<li><a href="https://www.python.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Python</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（3.7 或更高版本）</font></font></li>
+<li><a href="https://nodejs.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Node.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 在 Linux 上，我们建议使用
+</font></font><a href="https://github.com/nvm-sh/nvm"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">nvm</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装最新版本。</font></font></li>
+<li><a href="https://yarnpkg.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Yarn</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 安装 Node.js 后，您可以通过以下方式安装 Yarn</font></font><code>npm install -g yarn</code></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 Linux 上，您至少需要</font></font><code>openssl</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>libcurl</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">软件包。</font><font style="vertical-align: inherit;">在基于 Debian 的发行版上，您需要安装</font></font><code>libcurl4</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或
+</font></font><code>libcurl3</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来代替</font></font><code>libcurl</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，具体取决于您的发行版的年龄。</font><font style="vertical-align: inherit;">例如：</font></font></li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c"><span class="pl-c">#</span> Ubuntu</span>
+sudo apt install libcurl4 openssl
 
-Then check out
-[this Colab notebook](https://colab.research.google.com/github/voxel51/fiftyone-examples/blob/master/examples/quickstart.ipynb)
-to see some common workflows on the quickstart dataset.
-
-Note that if you are running the above code in a script, you must include
-`session.wait()` to block execution until you close the App. See
-[this page](https://voxel51.com/docs/fiftyone/user_guide/app.html#creating-a-session)
-for more information.
-
-## Documentation
-
-Full documentation for FiftyOne is available at
-[fiftyone.ai](https://fiftyone.ai). In particular, see these resources:
-
--   [Tutorials](https://voxel51.com/docs/fiftyone/tutorials/index.html)
--   [Recipes](https://voxel51.com/docs/fiftyone/recipes/index.html)
--   [User Guide](https://voxel51.com/docs/fiftyone/user_guide/index.html)
--   [CLI Documentation](https://voxel51.com/docs/fiftyone/cli/index.html)
--   [API Reference](https://voxel51.com/docs/fiftyone/api/fiftyone.html)
-
-## Examples
-
-Check out the [fiftyone-examples](https://github.com/voxel51/fiftyone-examples)
-repository for open source and community-contributed examples of using
-FiftyOne.
-
-## Contributing to FiftyOne
-
-FiftyOne is open source and community contributions are welcome!
-
-Check out the
-[contribution guide](https://github.com/voxel51/fiftyone/blob/develop/CONTRIBUTING.md)
-to learn how to get involved.
-
-## Installing from source
-
-The instructions below are for macOS and Linux systems. Windows users may need
-to make adjustments. If you are working in Google Colab,
-[skip to here](#source-installs-in-google-colab).
-
-### Prerequisites
-
-You will need:
-
--   [Python](https://www.python.org) (3.7 or newer)
--   [Node.js](https://nodejs.org) - on Linux, we recommend using
-    [nvm](https://github.com/nvm-sh/nvm) to install an up-to-date version.
--   [Yarn](https://yarnpkg.com) - once Node.js is installed, you can install
-    Yarn via `npm install -g yarn`
--   On Linux, you will need at least the `openssl` and `libcurl` packages. On
-    Debian-based distributions, you will need to install `libcurl4` or
-    `libcurl3` instead of `libcurl`, depending on the age of your distribution.
-    For example:
-
-```shell
-# Ubuntu
+<span class="pl-c"><span class="pl-c">#</span> Fedora</span>
+sudo dnf install libcurl openssl</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# Ubuntu
 sudo apt install libcurl4 openssl
 
 # Fedora
-sudo dnf install libcurl openssl
-```
-
-### Installation
-
-We strongly recommend that you install FiftyOne in a
-[virtual environment](https://voxel51.com/docs/fiftyone/getting_started/virtualenv.html)
-to maintain a clean workspace. The install script is only supported in
-POSIX-based systems (e.g. Mac and Linux).
-
-First, clone the repository:
-
-```shell
-git clone https://github.com/voxel51/fiftyone
-cd fiftyone
-```
-
-Then run the install script:
-
-```shell
-bash install.bash
-```
-
-**NOTE:** If you run into issues importing FiftyOne, you may need to add the
-path to the cloned repository to your `PYTHONPATH`:
-
-```shell
-export PYTHONPATH=$PYTHONPATH:/path/to/fiftyone
-```
-
-**NOTE:** The install script adds to your `nvm` settings in your `~/.bashrc` or
-`~/.bash_profile`, which is needed for installing and building the App
-
-**NOTE:** When you pull in new changes to the App, you will need to rebuild it,
-which you can do either by rerunning the install script or just running
-`yarn build` in the `./app` directory.
-
-### Upgrading your source installation
-
-To upgrade an existing source installation to the bleeding edge, simply pull
-the latest `develop` branch and rerun the install script:
-
-```shell
-git checkout develop
+sudo dnf install libcurl openssl" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h3 tabindex="-1" dir="auto"><a id="user-content-installation-1" class="anchor" aria-hidden="true" tabindex="-1" href="#installation-1"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://voxel51.com/docs/fiftyone/getting_started/virtualenv.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们强烈建议您在虚拟环境</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中安装 FiftyOne
+</font><font style="vertical-align: inherit;">
+以保持干净的工作空间。</font><font style="vertical-align: inherit;">安装脚本仅在基于 POSIX 的系统（例如 Mac 和 Linux）中受支持。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">首先，克隆存储库：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>git clone https://github.com/voxel51/fiftyone
+<span class="pl-c1">cd</span> fiftyone</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="git clone https://github.com/voxel51/fiftyone
+cd fiftyone" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后运行安装脚本：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>bash install.bash</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="bash install.bash" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您在导入 FiftyOne 时遇到问题，您可能需要将克隆存储库的路径添加到您的</font></font><code>PYTHONPATH</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">export</span> PYTHONPATH=<span class="pl-smi">$PYTHONPATH</span>:/path/to/fiftyone</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="export PYTHONPATH=$PYTHONPATH:/path/to/fiftyone" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装脚本会添加到您的</font><font style="vertical-align: inherit;">或
+</font></font><code>nvm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中的设置</font><font style="vertical-align: inherit;">，这是安装和构建应用程序所需的</font></font><code>~/.bashrc</code><font style="vertical-align: inherit;"></font><code>~/.bash_profile</code><font style="vertical-align: inherit;"></font></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当您对应用程序进行新的更改时，您将需要重建它，您可以通过重新运行安装脚本或仅
+</font></font><code>yarn build</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>./app</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录中运行来完成此操作。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-upgrading-your-source-installation" class="anchor" aria-hidden="true" tabindex="-1" href="#upgrading-your-source-installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">升级您的源安装</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要将现有源安装升级到最前沿，只需拉取最新</font></font><code>develop</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分支并重新运行安装脚本：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>git checkout develop
 git pull
-bash install.bash
-```
+bash install.bash</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="git checkout develop
+git pull
+bash install.bash" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h3 tabindex="-1" dir="auto"><a id="user-content-developer-installation" class="anchor" aria-hidden="true" tabindex="-1" href="#developer-installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发者安装</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想
+</font></font><a href="https://github.com/voxel51/fiftyone/blob/develop/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为 FiftyOne 做出贡献</font></font></a><font style="vertical-align: inherit;"></font><code>-d</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，您应该使用安装脚本的标志</font><font style="vertical-align: inherit;">执行开发人员安装：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>bash install.bash -d</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="bash install.bash -d" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h3 tabindex="-1" dir="auto"><a id="user-content-source-installs-in-google-colab" class="anchor" aria-hidden="true" tabindex="-1" href="#source-installs-in-google-colab"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">源安装在 Google Colab 中</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以通过在单元中运行以下命令，然后</font><strong><font style="vertical-align: inherit;">重新启动运行时，从</font></strong></font><a href="https://colab.research.google.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Google Colab</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中的源代码进行安装
+</font><font style="vertical-align: inherit;">：</font></font><strong><font style="vertical-align: inherit;"></font></strong><font style="vertical-align: inherit;"></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>%%shell
 
-### Developer installation
-
-If you would like to
-[contribute to FiftyOne](https://github.com/voxel51/fiftyone/blob/develop/CONTRIBUTING.md),
-you should perform a developer installation using the `-d` flag of the install
-script:
-
-```shell
-bash install.bash -d
-```
-
-### Source installs in Google Colab
-
-You can install from source in
-[Google Colab](https://colab.research.google.com) by running the following in a
-cell and then **restarting the runtime**:
-
-```shell
-%%shell
+git clone --depth 1 https://github.com/voxel51/fiftyone.git
+<span class="pl-c1">cd</span> fiftyone
+bash install.bash</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="%%shell
 
 git clone --depth 1 https://github.com/voxel51/fiftyone.git
 cd fiftyone
-bash install.bash
-```
+bash install.bash" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h3 tabindex="-1" dir="auto"><a id="user-content-docker-installs" class="anchor" aria-hidden="true" tabindex="-1" href="#docker-installs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Docker 安装</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅
+</font></font><a href="https://voxel51.com/docs/fiftyone/environments/index.html#docker" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这些说明</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+，了解如何构建和运行包含 FiftyOne 源或发布版本的 Docker 映像。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-ui-development-on-storybook" class="anchor" aria-hidden="true" tabindex="-1" href="#ui-development-on-storybook"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Storybook 的 UI 开发</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Voxel51 目前正在实现
+</font></font><a href="https://storybook.js.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Storybook</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，其中包含其基本 UI 组件的示例。</font><font style="vertical-align: inherit;">您可以通过在</font><strong><font style="vertical-align: inherit;">/app/packages/components中运行</font></strong></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">纱线故事书</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来访问当前的故事书实例</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">当故事书实例运行时，对组件的任何更改都将触发故事书应用程序中的刷新。</font></font><strong><font style="vertical-align: inherit;"></font></strong><font style="vertical-align: inherit;"></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>%%shell
 
-### Docker installs
-
-Refer to
-[these instructions](https://voxel51.com/docs/fiftyone/environments/index.html#docker)
-to see how to build and run Docker images containing source or release builds
-of FiftyOne.
-
-### UI Development on Storybook
-
-Voxel51 is currently in the process of implementing a
-[Storybook](https://storybook.js.org/) which contains examples of its basic UI
-components. You can access the current storybook instances by running **yarn
-storybook** in **/app/packages/components**. While the storybook instance is
-running, any changes to the component will trigger a refresh in the storybook
-app.
-
-```shell
-%%shell
+<span class="pl-c1">cd</span> /app/packages/components
+yarn storybook</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="%%shell
 
 cd /app/packages/components
-yarn storybook
-```
-
-### Generating documentation
-
-See the
-[docs guide](https://github.com/voxel51/fiftyone/blob/develop/docs/README.md)
-for information on building and contributing to the documentation.
-
-## Uninstallation
-
-You can uninstall FiftyOne as follows:
-
-```shell
-pip uninstall fiftyone fiftyone-brain fiftyone-db fiftyone-desktop
-```
-
-## Contributors
-
-Special thanks to these amazing people for contributing to FiftyOne! 🙌
-
+yarn storybook" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h3 tabindex="-1" dir="auto"><a id="user-content-generating-documentation" class="anchor" aria-hidden="true" tabindex="-1" href="#generating-documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生成文档</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+有关构建和贡献文档的信息，</font><font style="vertical-align: inherit;">请参阅
+</font></font><a href="https://github.com/voxel51/fiftyone/blob/develop/docs/README.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档指南。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-uninstallation" class="anchor" aria-hidden="true" tabindex="-1" href="#uninstallation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">卸载</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以按如下方式卸载 FiftyOne：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip uninstall fiftyone fiftyone-brain fiftyone-db fiftyone-desktop</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="pip uninstall fiftyone fiftyone-brain fiftyone-db fiftyone-desktop" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h2 tabindex="-1" dir="auto"><a id="user-content-contributors" class="anchor" aria-hidden="true" tabindex="-1" href="#contributors"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献者</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特别感谢这些了不起的人为 FiftyOne 做出的贡献！</font><font style="vertical-align: inherit;">🙌</font></font></p>
 <a href="https://github.com/voxel51/fiftyone/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=voxel51/fiftyone" />
+  <img src="https://camo.githubusercontent.com/2ad5990beceb2428daf34f22577f7f93be55c5e9c366bfc926d28d91035a0ded/68747470733a2f2f636f6e747269622e726f636b732f696d6167653f7265706f3d766f78656c35312f66696674796f6e65" data-canonical-src="https://contrib.rocks/image?repo=voxel51/fiftyone" style="max-width: 100%;">
 </a>
-
-## Citation
-
-If you use FiftyOne in your research, feel free to cite the project (but only
-if you love it 😊):
-
-```bibtex
-@article{moore2020fiftyone,
+<h2 tabindex="-1" dir="auto"><a id="user-content-citation" class="anchor" aria-hidden="true" tabindex="-1" href="#citation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引文</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您在研究中使用 FiftyOne，请随意引用该项目（但前提是您喜欢它😊）：</font></font></p>
+<div class="highlight highlight-text-bibtex notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">@article</span>{<span class="pl-en">moore2020fiftyone</span>,
+  <span class="pl-s">title</span>=<span class="pl-s"><span class="pl-pds">{</span>FiftyOne<span class="pl-pds">}</span></span>,
+  <span class="pl-s">author</span>=<span class="pl-s"><span class="pl-pds">{</span>Moore, B. E. and Corso, J. J.<span class="pl-pds">}</span></span>,
+  <span class="pl-s">journal</span>=<span class="pl-s"><span class="pl-pds">{</span>GitHub. Note: https://github.com/voxel51/fiftyone<span class="pl-pds">}</span></span>,
+  <span class="pl-s">year</span>=<span class="pl-s"><span class="pl-pds">{</span>2020<span class="pl-pds">}</span></span>
+}</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="@article{moore2020fiftyone,
   title={FiftyOne},
   author={Moore, B. E. and Corso, J. J.},
   journal={GitHub. Note: https://github.com/voxel51/fiftyone},
   year={2020}
-}
-```
+}" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+</article></div>
